@@ -5,6 +5,12 @@ Predicting weekly retail sales and translating predictions into actionable prici
 ## 📌 Problem Statement
 Retailers lose revenue two ways: **stockouts** (when demand is underestimated) and **excess inventory** (when it's overestimated). This project builds a forecasting model to predict next week's store sales, then layers a rule-based recommendation engine on top to suggest stock/pricing actions — going beyond a typical "predict and stop" ML notebook.
 
+## 🧰 Tech Stack
+**Languages & Libraries:** Python, Pandas, NumPy, scikit-learn, Matplotlib  
+**Modeling:** Linear Regression, Random Forest, time-series feature engineering (lag/rolling features)  
+**Deployment:** Streamlit (interactive dashboard), Pyngrok (live tunnel hosting)  
+**Tools:** Google Colab, Kaggle API, Git/GitHub
+
 ## 📊 Dataset
 - **Source**: Walmart weekly sales data, 45 stores, 2010–2012 (6,435 records)
 - **Features**: Store, Date, Weekly_Sales, Holiday_Flag, Temperature, Fuel_Price, CPI, Unemployment
